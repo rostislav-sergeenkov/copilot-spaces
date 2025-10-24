@@ -16,6 +16,18 @@ Guidance for managing day-to-day execution and tracking progress toward project 
   - Run automated tests and linting in CI before requesting review
   - Require at least one approval before merging (or team-defined policy)
 
+## PR & Traceability
+
+All pull requests must maintain clear traceability to issues and acceptance criteria:
+
+- **Issue reference required**: Every PR must reference the related issue using "Refs #123" or "Fixes #456" in the PR description
+- **Acceptance criteria**: Include or link to the acceptance criteria from the issue in the PR description to ensure reviewers can validate completeness
+- **Checklist compliance**: Follow the [PR & CI Checklist](checklists/pr-and-ci-checklist.md) before opening a PR to ensure quality standards are met
+- **Tests included**: Add unit tests and/or integration tests that validate the acceptance criteria
+- **CI verification**: Ensure all automated tests, linting, and security scans pass before requesting review
+
+This traceability enables better code review, simplifies release notes generation, and ensures work aligns with project goals.
+
 ## Quality & Testing
 - Unit tests for new logic
 - Integration tests where applicable

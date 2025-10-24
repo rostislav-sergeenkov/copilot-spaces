@@ -44,3 +44,7 @@ Applies to all cross-functional projects that deliver product features, services
 ## How to use these docs
 - Keep the Project Charter updated in the project repo.
 - Add process-specific docs into `.copilot/` if you want Copilot Spaces to use them as context.
+- Refer to the [consolidated README](README.md) for a comprehensive overview and links to all process docs, checklists, and templates.
+- Use the [PR & CI Checklist](checklists/pr-and-ci-checklist.md) before opening pull requests.
+- Follow the [Release Checklist](checklists/release-checklist.md) for deployments.
+- Use the [Risk Register Template](templates/risk-register-template.md) to track and manage project risks.
